@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Entrer un nombre"
+        android:textSize="24dp"
+        android:id="@+id/text"
+        android:layout_weight="0.25"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:onClick="Sign_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_5"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                tools:ignore="OnClick" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="Sign_Buttons_Clicked"
+                android:text="-"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="*"
+                android:onClick="Sign_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="."
+                android:onClick="Number_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="C"
+                android:onClick="Clear_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="/"
+                android:onClick="Sign_Buttons_Clicked"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="Clear_Buttons_Clicked"
+                android:text="CE"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="="
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:id="@+id/btnEquals"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>
